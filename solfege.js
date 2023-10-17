@@ -47,8 +47,9 @@ function createQuestions() {
     if (response === null) {
       alert("You have cancelled the game.");
       return;
-    } else if (response === C_SCALE[randomIndex].notename) {
+    } else if (response.toLowerCase() === C_SCALE[randomIndex].notename.toLowerCase()) {
       alert("Great job!");
+    
     } else {
       alert("The answer is " + C_SCALE[randomIndex].notename);
     }
