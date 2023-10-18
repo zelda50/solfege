@@ -45,7 +45,7 @@ div.header{
     filter: blur(-10px);
   }
   .startButton {
-    margin-left: 200px;
+    margin-left: 120px;
     margin-top: 70px;
     background-color: black;
     border-radius: 30px;
@@ -63,7 +63,7 @@ div.header{
     
   }
   div.header{
-    margin-left: 150px;
+    margin-left: 80px;
     margin-top: 190px;
   }
 }
