@@ -3,12 +3,11 @@
   padding: 0;
 }
 body {
-  background-image: url('./img/circle.jpeg'); /* Replace with your image file path */
-   /* Cover the entire container */
+  background-image: url('./img/circle.jpeg'); 
   background-size: cover;
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
-  height: 100vh; /* Set a fixed height, e.g., 100% of the viewport height */
+  background-position: center; 
+  background-repeat: no-repeat; 
+  height: 100vh; 
   filter: blur(-10px);
 }
 div.header{
@@ -34,3 +33,37 @@ div.header{
   color: white;
 }
 
+
+
+@media screen and (max-width: 768px) {
+  body {
+    background-image: url('./img/circle.jpeg'); 
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 100vh; 
+    filter: blur(-10px);
+  }
+  .startButton {
+    margin-left: 200px;
+    margin-top: 70px;
+    background-color: black;
+    border-radius: 30px;
+    width: 100px;
+    color: white;
+  }
+  .img1{
+    width:  50px;
+    height: 50px;
+    
+  }
+  .img2 {
+    width:  50px;
+    height: 50px;
+    
+  }
+  div.header{
+    margin-left: 150px;
+    margin-top: 190px;
+  }
+}
