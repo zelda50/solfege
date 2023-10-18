@@ -3,17 +3,18 @@
   padding: 0;
 }
 body {
-  background-image: url('./img/circle.jpeg'); 
+  background-image: url('./img/bg3.png'); 
   background-size: cover;
   background-position: center; 
   background-repeat: no-repeat; 
-  height: 100vh; 
+  height: 280px; 
   filter: blur(-10px);
 }
 div.header{
   margin-left: 400px;
   margin-top: 170px;
 }
+
 .img1{
   width:  50px;
   height: 50px;
@@ -33,9 +34,8 @@ div.header{
   color: white;
 }
 
-
-
 @media screen and (max-width: 768px) {
+  /* CSS styles for screens with a maximum width of 768px (tablets) */
   body {
     background-image: url('./img/circle.jpeg'); 
     background-size: cover;
@@ -43,14 +43,7 @@ div.header{
     background-repeat: no-repeat; 
     height: 100vh; 
     filter: blur(-10px);
-  }
-  .startButton {
-    margin-left: 120px;
-    margin-top: 70px;
-    background-color: black;
-    border-radius: 30px;
-    width: 100px;
-    color: white;
+    font-size: 16px;
   }
   .img1{
     width:  50px;
@@ -62,8 +55,19 @@ div.header{
     height: 50px;
     
   }
+  .startButton {
+    margin-left: 190px;
+    margin-top: 50px;
+    background-color: black;
+    border-radius: 30px;
+    width: 100px;
+    color: white;
+  }
   div.header{
-    margin-left: 80px;
-    margin-top: 190px;
+    margin-left: 140px;
+    margin-top: 170px;
+  }
+  .container {
+    padding: 10px; /* Adjust padding for mobile screens */
   }
 }
