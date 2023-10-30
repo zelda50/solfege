@@ -46,6 +46,11 @@ body {
 
 .front {
   background-image: url(img/bg1.jpeg);
+  text-align: center;
+  align-items: center;
+  color: black;
+  display: flex;
+  justify-content: center;
 }
 
 .back {
