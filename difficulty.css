@@ -44,7 +44,6 @@ body {
   backface-visibility: hidden;
 }
 
-@media screen and (max-width: 768px) {
 .front {
   background-image: url(img/bg1.jpeg);
   text-align: center;
