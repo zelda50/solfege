@@ -44,6 +44,37 @@ body {
   backface-visibility: hidden;
 }
 
+.front {
+  background-image: url(img/bg1.jpeg);
+  text-align: center;
+  align-items: center;
+  color: black;
+  display: flex;
+  justify-content: center;
+}
+
+.back {
+  background-color: #070101;
+  transform: rotateY(180deg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+}
+
+.stbtn {
+  width: 90px;
+  height: 40px;
+  border-radius: 30px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.stbtn a {
+  text-decoration: none;
+}
+
 @media screen and (max-width: 768px) {
 .front {
   background-image: url(img/bg1.jpeg);
