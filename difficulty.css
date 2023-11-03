@@ -1,5 +1,5 @@
 body {
-  background-image: url(img/music1.png);
+  background: linear-gradient(45deg, #02030b, #e31506);
 }
 
 /* CSS for the card */
