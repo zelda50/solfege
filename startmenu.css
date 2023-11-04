@@ -106,6 +106,7 @@ body {
     position: relative;
     transition: transform 1500ms;
     transform-style: preserve-3d;
+    transform: scale(1.1);
     margin-top: 18px;
     margin-left: 50px;
   }
