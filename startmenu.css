@@ -101,11 +101,13 @@ body {
   }
   
   .card {
-    height: 80%;
-    width: 80%;
+    height: 90%;
+    width: 70%;
     position: relative;
     transition: transform 1500ms;
     transform-style: preserve-3d;
+    margin-top: 18px;
+    margin-left: 50px;
   }
   
   .container:hover > .card {
@@ -143,6 +145,7 @@ body {
     border-radius: 30px;
     cursor: pointer;
     text-decoration: none;
+    text-align: center;
   }
   
   .stbtn a {
